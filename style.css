@@ -1,0 +1,30 @@
+/* For screens between 600px and 1024px */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  
+.navbar{
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: rgb(107, 100, 100);
+    color: bisque;
+}
+.carousel-item{
+    height: 500px;
+}
+h3,p{
+    text-align: end;
+  justify-items: flex-end;
+   margin-left: -680px;
+   margin-top: -500px;
+}
+.slider{
+    text-align: start;
+  justify-items: flex-start;
+   margin-right: 20px;
+   margin-bottom: -500px;
+}
